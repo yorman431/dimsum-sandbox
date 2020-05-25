@@ -52,11 +52,6 @@ export default [
       },
     ]
   },
-  // {
-  //   ...getDefaults("Tabs"),
-  //   type: 'group',
-  //   children: []
-  // },
   {
     ...getDefaults("TooltipTextProvider"),
     type: 'group',
