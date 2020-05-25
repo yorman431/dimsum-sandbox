@@ -27,6 +27,6 @@ jobs:
     - run: npm ci
     - run: npm run deploy --if-present
       env:
-        EMAIL: daniel30sotom@gmail.com
-        GIT_AUTHOR_NAME: Daniel Soto
-        GIT_COMMITTER_NAME: Daniel Soto
+        EMAIL: "daniel30sotom@gmail.com"
+        GIT_AUTHOR_NAME: "Daniel Soto"
+        GIT_COMMITTER_NAME: "Daniel Soto"
