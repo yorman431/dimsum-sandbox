@@ -83,5 +83,15 @@ export default [
         path: "TreeView/PUI-2690",
       }
     ]
+  },
+  {
+    ...getDefaults("ZipCodeSearch"),
+    type: 'group',
+    children: [
+      {
+        ...getDefaults("PUI-5265"),
+        path: "ZipCodeSearch/PUI-5265",
+      }
+    ]
   }
 ];
