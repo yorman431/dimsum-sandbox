@@ -91,6 +91,10 @@ export default [
       {
         ...getDefaults("PUI-5265"),
         path: "ZipCodeSearch/PUI-5265",
+      },
+      {
+        ...getDefaults("NGENY-25717"),
+        path: "ZipCodeSearch/NGENY-25717",
       }
     ]
   }
